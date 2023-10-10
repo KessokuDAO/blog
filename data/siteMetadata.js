@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'About Kessoku DAO',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://kessoku.xyz',
+  siteUrl: 'https://blog.kessoku.xyz',
   siteRepo: 'https://github.com/KessokuDAO/blog',
   siteLogo: '/static/images/k.png',
   socialBanner: '/static/images/ksk.png',
