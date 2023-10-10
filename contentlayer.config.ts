@@ -112,7 +112,7 @@ export const Blog = defineDocumentType(() => ({
 
 export const Member = defineDocumentType(() => ({
   name: 'Member',
-  filePathPattern: 'member/**/*.mdx',
+  filePathPattern: 'member/*.mdx',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
@@ -152,7 +152,11 @@ export const Authors = defineDocumentType(() => ({
   fields: {
     name: { type: 'string', required: true },
     avatar: { type: 'string' },
+    occupation: { type: 'string' },
+    company: { type: 'string' },
+    email: { type: 'string' },
     twitter: { type: 'string' },
+    linkedin: { type: 'string' },
     github: { type: 'string' },
     layout: { type: 'string' },
   },
